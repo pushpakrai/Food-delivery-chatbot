@@ -1,5 +1,3 @@
-
-
 # Food Delivery Chatbot Using Dialogflow and FastAPI
 
 ## Overview
@@ -22,6 +20,8 @@ dialogflow_assets/
 frontend/
     Holds the website code for user interaction.
 ```
+
+---
 
 ## Setup Instructions
 
@@ -82,11 +82,15 @@ This will provide an HTTPS URL (e.g., `https://abcd1234.ngrok.io`) that you can 
 
 **Note:** Ngrok sessions may expire. If you encounter a "session expired" message, simply restart the ngrok process.
 
+---
+
 ## Dialogflow Integration
 
 ### Dialogflow Assets
 
 The `dialogflow_assets/` directory contains all the necessary training phrases, intents, entities, and context configurations required for the chatbot. Import these assets into your Dialogflow project for the chatbot to function properly.
+
+---
 
 ## Key Features
 
@@ -95,6 +99,8 @@ The `dialogflow_assets/` directory contains all the necessary training phrases, 
 - **Real-Time Updates**: Provides real-time updates about order status, allowing users to track their deliveries.
 - **Webhook Fulfillment**: The FastAPI server handles fulfillment requests from Dialogflow, allowing dynamic responses based on database interactions.
 
+---
+
 ## Technologies Used
 
 - **Dialogflow**: NLP platform for building conversational interfaces.
@@ -102,6 +108,8 @@ The `dialogflow_assets/` directory contains all the necessary training phrases, 
 - **MySQL**: Relational database to store order data.
 - **ngrok**: Tool for exposing local servers to the internet via HTTPS.
 - **HTML/CSS/JS**: Frontend technologies for building the user interface.
+
+---
 
 ## Future Improvements
 
