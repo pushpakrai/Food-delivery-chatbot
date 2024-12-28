@@ -92,27 +92,27 @@ The `dialogflow_assets/` directory contains all the necessary training phrases, 
 
 ---
 
-## Key Features
+## Key Features 🛠️
 
 - **Intents and Entities**: The chatbot understands various intents (e.g., placing an order, tracking orders) and extracts relevant entities like food item names and quantities.
-- **Order Management**: Integration with MySQL to store and retrieve order information.
+- **Order Management**: Integration with MySQL to store and retrieve order information, enabling smooth order processing.
 - **Real-Time Updates**: Provides real-time updates about order status, allowing users to track their deliveries.
-- **Webhook Fulfillment**: The FastAPI server handles fulfillment requests from Dialogflow, allowing dynamic responses based on database interactions.
+- **Webhook Fulfillment**: The FastAPI server handles fulfillment requests from Dialogflow, delivering dynamic responses based on database interactions.
 
 ---
 
-## Technologies Used
+## Technologies Used 🖥️
 
 - **Dialogflow**: NLP platform for building conversational interfaces.
 - **FastAPI**: Python web framework for building the backend.
 - **MySQL**: Relational database to store order data.
-- **ngrok**: Tool for exposing local servers to the internet via HTTPS.
+- **Ngrok**: Tool for exposing local servers to the internet via HTTPS.
 - **HTML/CSS/JS**: Frontend technologies for building the user interface.
 
 ---
 
-## Future Improvements
+## Future Improvements 🚀
 
-- **Voice Integration**: Add voice recognition to make the chatbot more interactive.
-- **Payment Gateway**: Integrate a payment system to process food orders.
-- **Mobile App**: Develop a mobile app to provide better accessibility.
+- **Voice Integration**: Add voice recognition to make the chatbot more interactive and accessible.
+- **Payment Gateway**: Integrate a payment system to process food orders securely and efficiently.
+- **Mobile App**: Develop a mobile app for better user accessibility, making it easier for customers to interact with the chatbot.
