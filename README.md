@@ -1,4 +1,4 @@
-# Food Delivery Chatbot Using Dialogflow and FastAPI.
+# Food Delivery Chatbot Using Dialogflow and FastAPI 🍔🤖
 
 ## Overview
 This project demonstrates an end-to-end implementation of a food delivery chatbot using Dialogflow, Python (FastAPI), and MySQL. It includes natural language processing (NLP) concepts like intents, entities, and contexts to create a conversational interface. The chatbot interacts with a backend server to handle real-time orders and integrates with a database for order management.
